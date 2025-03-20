@@ -6,17 +6,16 @@
 #include <string.h>
 #include <limits.h>
 using namespace std;
-//±â¼öÁ¤·Ä·Î ·£´ı int¸¦ Á¤·ÄÇØº¸ÀÚ (lrs)
-
-void rsort(vector<int> &v, int length) {	//length : ÀÚ¸´¼ö
+//ê¸°ìˆ˜ì •ë ¬ë¡œ ëœë¤ intë¥¼ ì •ë ¬í•´ë³´ì (lrs)
+void rsort(vector<int> &v, int length) {	//length : ìë¦¿ìˆ˜
 	int size = v.size();
 	vector<queue<int>> radix(10);
 	for (int i = length; i > 0; i--) {
 		for (int j = 0; j < size; j++) {
 			radix[v[j] % (int)pow(10, (length - i + 1)) / (int)pow(10, (length - i))].push(v[j]);
-		}	//0~9 Å¥¿¡ ±â¼ö ³Ö±â
-		//Å¥¿¡ ¸ğµÎ ³Ö¾úÀ¸´Ï 0~9Å¥ Â÷·Ê´ë·Î ²¨³»¼­ ¹è¿­¿¡ ³Ö¾îÁÖÀÚ
-		int progress = 0;	//Å¥¿¡ ÀÖ´Â°É ¹è¿­¿¡ ³Ö´Â ÁøÇàµµ¸¦ ÀúÀåÇÒ º¯¼ö
+		}	//0~9 íì— ê¸°ìˆ˜ ë„£ê¸°
+		//íì— ëª¨ë‘ ë„£ì—ˆìœ¼ë‹ˆ 0~9í ì°¨ë¡€ëŒ€ë¡œ êº¼ë‚´ì„œ ë°°ì—´ì— ë„£ì–´ì£¼ì
+		int progress = 0;	//íì— ìˆëŠ”ê±¸ ë°°ì—´ì— ë„£ëŠ” ì§„í–‰ë„ë¥¼ ì €ì¥í•  ë³€ìˆ˜
 		for (int j = 0; j < 10; j++) {
 			while (radix[j].size()) {
 				v[progress] = radix[j].front();
@@ -28,20 +27,16 @@ void rsort(vector<int> &v, int length) {	//length : ÀÚ¸´¼ö
 	}
 }
 
-
-
-
 int main() {
 	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 	srand(time(NULL));
 	vector<int> v(100);
-	for (int i = 0; i < 100; i++)	//³­¼ö ÃÊ±âÈ­ 0 ~ 32768
+	for (int i = 0; i < 100; i++)	//ë‚œìˆ˜ ì´ˆê¸°í™” 0 ~ 32768
 		v[i] = rand();
 	cout << "before sort: ";
 	for (int i = 0; i < 100; i++) {
 		cout << "[" << v[i] << "] ";
 	}
-
 	rsort(v, 5);
 
 	cout << "\n\nafter sort: ";
