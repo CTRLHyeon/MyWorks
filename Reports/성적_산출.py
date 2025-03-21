@@ -18,47 +18,50 @@ def SumAvg(a,b,c):  #합과 평균 출력 함수, 매개변수: 영어, C언어,
     avgs=[]
     for i in range(0,5,1):
         sums.append(a[i]+b[i]+c[i])
-        avgs.append(sums[i])
+        avgs.append(sums[i]/3)
     return sums, avgs
     
 def ranks(a):       #등수 계산, 매개변수: 총점 리스트
     rank=[1,1,1,1,1]
     for i in range(0,5,1):
-        temp = a[i]
+        temp =int(a[i])
         for j in range(0,5,1):
             if (a[j]>temp):
                 rank[i]+=1
     return rank
 
 def grade(a):       #학점 계산, 매개변수: 총점 리스트
-    grades=[]
+    grades=[0,0,0,0,0] #초기화
     for i in range(0,5,1):
         if (a[i]>=285):
-            a[i]="A+"
+            grades[i]="A+"
         elif (a[i]>=270):
-            a[i]="A0"
+            grades[i]="A0"
         elif(a[i]>=255):
-            a[i]="B+"
+            grades[i]="B+"
         elif(a[i]>=240):
-            a[i]="B0"
+            grades[i]="B0"
         elif(a[i]>=225):
-            a[i]="C+"
+            grades[i]="C+"
         elif(a[i]>=210):
-            a[i]="C0"
+            grades[i]="C0"
         else:
-            a[i]="F"
-    return a
-#======================================================
+            grades[i]="F"
+    return grades
 
 def prints():
     print("              성적관리프로그램")
     print("=============================================================================")
-    print(" 학번          이름      영어   C-언어   파이썬   총점   평균   학점   등수")
+    print("학번          이름      영어   C-언어   파이썬   총점   평균   학점   등수")
     for i in range(0,5,1):
         Sum, Avg = SumAvg(eng,clang,py)
         print(studentID[i],"  ",name[i],"  ",eng[i],"  ",clang[i],"  ",py[i],"  ",Sum[i],"  ",Avg[i],"  ",grade(Sum)[i],"  ",ranks(Sum)[i])
+        
+def main():
+    inputs()
+    prints()
+    
     #============================================================
     #밑에가 메인 함수
-    
-inputs()
-prints()
+
+main()
