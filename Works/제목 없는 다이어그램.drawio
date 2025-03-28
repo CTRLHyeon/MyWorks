@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram name="페이지-1" id="_BRhv00JYU-RnK_FMh2p">
+    <mxGraphModel dx="2117" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LIoRFN2679DY6rcGjams-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LIoRFN2679DY6rcGjams-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-2" target="LIoRFN2679DY6rcGjams-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-2" value="게임 시작&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-3" value="게임 종료" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-4" value="설정" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LIoRFN2679DY6rcGjams-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-8" target="LIoRFN2679DY6rcGjams-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-8" value="게임 메인 화면" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-10" target="LIoRFN2679DY6rcGjams-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-10" target="LIoRFN2679DY6rcGjams-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-10" target="LIoRFN2679DY6rcGjams-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-10" target="LIoRFN2679DY6rcGjams-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-10" value="게임 요소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-12" target="LIoRFN2679DY6rcGjams-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-12" value="주어진 영역에 나무 심기" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-13" value="산불 진압 후 영역 넓히기" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-14" value="산불이 확산돼 영역 줄어들기" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-15" value="심겨진 나무에 비례하여 자원 획득하기" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIoRFN2679DY6rcGjams-22" target="LIoRFN2679DY6rcGjams-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-22" value="프로그램 실행" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-26" value="획득 가능한 자원" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-28" value="산소 : 심겨진 나무에 비례해 자동으로 생성" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-29" value="목재 : 심겨진 나무 파괴 후 획득 가능" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LIoRFN2679DY6rcGjams-30" value="잿가루 : 영역 확장/감소 시 획득 가능한 특별한 재화" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
