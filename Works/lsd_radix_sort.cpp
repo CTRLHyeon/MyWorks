@@ -23,7 +23,6 @@ void rsort(vector<int> &v, int length) {	//length : 자릿수
 				progress++;
 			}
 		}
-
 	}
 }
 
@@ -37,8 +36,7 @@ int main() {
 	for (int i = 0; i < 100; i++) {
 		cout << "[" << v[i] << "] ";
 	}
-	rsort(v, 5);
-
+	rsort(v, 5);	//기수정렬 실행
 	cout << "\n\nafter sort: ";
 	for (int i = 0; i < 100; i++) {
 		cout << "[" << v[i] << "] ";
